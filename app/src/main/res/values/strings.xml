@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MeeToys</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details">October 2016 Ford Endeavour Titanium 3.2 4x4 AT with Panaromic Sunroof(Top Line variant) Single Owner Grey Colour 89000 kms with complete Service Record VIP Number \'2002\' Absolutely neat condition. No work to be done. Just take and drive. Finance available. ADDITIONAL VEHICLE INFORMATION: Accidental: No Battery Condition: New Vehicle Certified: Yes Color: Grey Make Month: October Registration Place: MH Exchange: Yes Finance: Yes Service History: Available Tyre Condition: New</string>
+    <string name="msg_where_is_your_l">where is your location ?</string>
+
+    <string name="back_button_description">Back</string>
+
+
+</resources>

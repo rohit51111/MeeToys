@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="userProfile"
+            type="com.bitcodetech.meetoys.myprofile.model.UserProfile" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/back_button_description"
+                android:src="@drawable/back_button" />
+            <TextView
+                android:text="Profile Page"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgPost"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/owner" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            >
+
+
+
+            <TextView
+                android:textColor="#393838"
+                android:textSize="20sp"
+                android:text="Name - "
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="#393838"
+                android:id="@+id/txtOwnerName"
+                android:textSize="20sp"
+                android:text="@{userProfile.user_name}"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="11dp"
+            >
+
+
+
+            <TextView
+                android:textColor="#393838"
+                android:textSize="20sp"
+                android:text="Email - "
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="#393838"
+                android:id="@+id/txtOwnerEmail"
+                android:textSize="20sp"
+                android:text="@{userProfile.email}"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="11dp"
+            >
+
+
+
+            <TextView
+                android:textColor="#393838"
+                android:textSize="20sp"
+                android:text="Contact no - "
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="#393838"
+                android:id="@+id/txtOwnerContactNo"
+                android:textSize="20sp"
+                android:text="@{userProfile.mobile_number}"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="11dp"
+            >
+
+
+
+
+
+
+
+            <TextView
+                android:textColor="#393838"
+                android:textSize="20sp"
+                android:text="Location - "
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <TextView
+                android:textColor="#393838"
+                android:id="@+id/txtOwnerLoction"
+                android:textSize="20sp"
+                android:text="@{userProfile.address}"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"
+            android:text="Log Out" />
+
+
+    </LinearLayout>
+
+</layout>

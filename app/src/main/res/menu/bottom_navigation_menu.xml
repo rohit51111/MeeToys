@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/aboutUs"
+        android:title="Post"
+        android:icon="@drawable/post"/>
+
+    <item
+        android:id="@+id/myPost"
+        android:title="My Post"
+        android:icon="@drawable/baseline"/>
+    <item
+        android:id="@+id/addpost"
+        android:title="Sell"
+        android:icon="@drawable/add"/>
+    <item
+        android:id="@+id/fav"
+        android:title="Favorite"
+        android:icon="@drawable/fav"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"/>
+</menu>
